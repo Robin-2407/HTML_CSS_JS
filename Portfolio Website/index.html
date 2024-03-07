@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Robin Sukhdeve</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src="./images/userAsset/navLogo.jpg" class="logo">
+                    <div class="logo-text">obin Sukhdeve</div>
+                </div>
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#Skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+            </div>
+
+            <div class="hero-section">
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hii! Robin Sukhdeve</div>
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am A <span class="role"></span>
+                    </div>
+                    <div class="hero-section-description">
+                        I'm a software developer and here is my portfolio website. Here you'll learn about my journey as a software developer.
+                    </div>
+                    <div class="btn-pink" id="btn">Hire me</div>
+                </div>
+                <div class="hero-section-right">
+                     <div class="absolute icons icon-dots">
+                        <img src="./images/userAsset/dots.png" alt="icon-dots">
+                     </div>
+                     <div class="absolute icons icon-cube">
+                        <img src="./images/userAsset/cube.png" alt="icon-cube">
+                     </div>
+                     <div class="absolute icons icon-circle">
+                        <img src="./images/userAsset/circle.png" alt="icon-circle">
+                     </div>
+                     <div class="absolute icons icon-zigzag">
+                        <img src="./images/userAsset/zigzags.png" alt="icon-zigzag">
+                     </div>
+                     <div class="absolute icons icon-plus">
+                        <img src="./images/userAsset/plus.png" alt="icon-plus">
+                     </div>
+                     <div class="user-image">
+                        <img src="./images/userAsset/UserImage.png" alt="user-image">
+                     </div>
+                </div>
+                <div class="faded-text">Robin Sukhdeve</div>
+            </div>
+
+            <div class="project-section">
+                <h2 class="page-header">Projects</h2>
+                <div class="project-container">
+                        <div class="project-card" id="project1">
+                            <div class="project-num">01</div>
+                            <div class="project-content">
+                                
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.role', {
+          strings: [
+            "Full Stack Developer",
+            "JAVA Enthusiast",
+            "Coder",
+            "Problem Solver",
+        ],
+          loop: true,
+          typeSpeed: 100,
+          backspeed: 80,
+          backdelay: 1000,
+        });
+      </script>
+</body>
+</html>
